@@ -1,0 +1,438 @@
+/* ----- LOADING SCREEN ------ */
+#loader 
+{
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+}
+
+@keyframes spin 
+{
+  100% 
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.center 
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* ----- END LOADING SCREEN ------ */
+
+#homeBackground
+{
+	/*background: linear-gradient(#e66465, #f0f403);*/
+	background: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	color: grey;
+	margin-top: 8rem;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#homeTitleBLoc
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#homeTitle
+{
+	color: red;
+}
+
+#homeSubtitle
+{
+	margin-top: -1rem;
+	color: white;
+}
+
+#titleLogo
+{
+	width: 12rem;
+	height: 10rem;
+}
+
+#homeMenu
+{
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: auto;
+  background-color: #ebff44;
+  width: 100%;
+  height: 6vh;
+  align-items: center;
+  overflow: hidden;
+}
+
+#homeMenuBox
+{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	border:1px solid black;
+	/*border-radius: 10px;
+	background: #5d61d6 ; */
+	background: grey;
+	padding: 0.2rem;
+	margin: 0rem;
+	width: 7rem;
+	text-align: center;
+}
+
+#homeMenuBox:hover
+{
+	background-color: #2196f3;
+}
+
+#searchBoxBloc
+{
+	display: flex;
+	flex-direction: row;
+	float: right;
+	margin-right: 25%;
+}
+
+#searchBox
+{
+	margin-right: 2%;
+	padding: 0.2rem;
+	background-color: gray;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+
+#searchButton
+{
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: yellow;
+	color: gray;
+}
+
+#loginForm
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 5rem;
+	width: 20%;
+	text-align: center;
+}
+
+#submitButton
+{
+	width: 5rem;
+	text-align: center;
+	margin: auto;
+}
+
+
+#marqueeParam
+{
+	margin-left: 5%;
+	max-width: 70%;
+	height: 20rem;
+}
+
+#marqueeBloc
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: auto;
+	overflow: hidden;
+	flex-wrap: wrap;
+	margin: auto;
+	/*margin-left: 20%;*/
+	margin-left: 0%;
+	max-width: 70%;
+	margin: auto;
+}
+
+
+#marqueeParam2
+{
+	margin-left: 5%;
+	max-width: 70%;
+	height: 17rem;
+}
+
+#marqueeBloc2
+{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	overflow: hidden;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-left: 20%;
+	max-width: 70%;
+}
+
+#figBloc
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-decoration: none;
+	width: 8rem;
+	margin: 1rem;
+	
+	background-color: yellow;
+    border-radius: 9px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+#figBloc:hover
+{
+	background-color: red;
+	transition-duration: 1.5s;
+}
+
+#figLink
+{
+	text-decoration: none;
+	color: gray;
+}
+
+#homeHr1
+{
+
+	width: 50%;
+	font-weight: 900;
+	min-height: 3px;
+	border-radius: 15px;
+	box-shadow: 2px 1px 2px 1px white;
+}
+
+#homeHr2
+{
+	width: 20%;
+	font-weight: 900;
+	min-height: 3px;
+	border-radius: 15px;
+	box-shadow: 2px 1px 2px 1px white;
+}
+
+#commentBloc
+{
+	color: grey;
+	max-width: 40%;
+}
+
+#commentTitleUnderline
+{
+	max-width: 40%;
+}
+
+#commentBox
+{
+	margin: auto;
+	border: 1px solid grey;
+	max-width: 35%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+
+}
+
+#commentIdBox
+{
+	margin: auto;
+	width: 60%;
+	height: 2rem;
+	margin-bottom: 2rem;
+}
+
+#commentCommentBox
+{
+	margin: auto;
+	width: 80%;
+	height: 10rem;
+	text-align: bottom;
+	size: 5;
+}
+
+#commentPostButton
+{
+	margin: auto;
+	margin-top: 1rem;
+	background-color: grey;
+	color: white;
+	border:2px solid white;
+	border-radius: 10px;
+	width: 20%;
+}
+
+#descriptionMoviePoster
+{
+	width: 50%;
+	height: auto;
+}
+
+#watchNowButton
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	border: 2px solid white;
+	margin: auto;
+	margin-top: 3rem;
+	max-width: 10rem;
+	height: 4rem;
+	background-color: purple;
+	font-size: 1.5rem;
+	border-radius: 10px;
+}
+
+#watchNowButton:hover
+{
+	color: blue;
+	transition-duration: 1s;
+}
+
+#movieDescParam
+{
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	margin: auto;
+	justify-content: space-around;
+}
+
+#yearCalendar
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 85%;
+	top: 5rem;
+	border: 5px solid white;
+	border-radius: 15px;
+	width: 15rem;
+	max-width: 15rem;
+	color: white;
+	padding: 10px;
+}
+
+
+#yearcalendarTitle
+{
+	color: orange;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-bottom: 25px;
+
+}
+
+#table
+{
+	display: flex;
+	flex-direction: row;
+	width: 15rem;
+	max-width: 15rem;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-left: 15px;
+}
+
+#yearGrid
+{
+	margin: 10px;
+}
+
+#yearLink
+{
+	color: white;
+}
+
+#yearLink:hover
+{
+	color: orange;
+}
+
+@media screen and (min-width:350px ) and (max-width: 450px)
+{
+  #homeTitleBLoc
+  {
+    flex-direction: column;
+  }
+
+  #yearCalendar
+  {
+  	left: 16%;
+  	top: 2rem;
+  }
+
+  #homeMenu
+  {
+  	height: 3rem;
+  }
+
+  iframe
+  {
+    width:300px;
+  }
+
+  #searchBoxBloc 
+  {
+  	margin-top: 1rem;
+  	margin-right: 17%;
+  }
+
+  #homeMenuBox
+  {
+  	min-width: 4.2rem;
+  }
+
+  #homeMenu > a:nth-child(1)
+  {
+  	min-width: 2rem;
+  }
+
+  #marqueeBloc 
+  {
+  	max-width: 100%;
+  	margin-left: 0%;
+  }
+
+  #movieDescParam
+{
+	max-width: 80%;
+}
+
+}

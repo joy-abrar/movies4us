@@ -1,0 +1,94 @@
+#loginDiv
+{
+
+}
+
+#loginForm
+{
+	border:2px solid skyblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 20%;
+	margin: auto;
+	padding: 5rem;
+}
+
+#dashboadButtons
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: auto;
+	width: 30%;
+}
+
+#uploadMovie
+{
+	text-decoration: none;
+	font-size: 2rem;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: skyblue;
+	margin-bottom: 2rem;
+	color: white;
+}
+
+#editMovie
+{
+	text-decoration: none;
+	font-size: 2rem;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: skyblue;
+	margin-bottom: 2rem;
+}
+
+#showReports
+{
+	text-decoration: none;
+	font-size: 2rem;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: skyblue;
+	margin-bottom: 2rem;
+	color: red;
+}
+
+#uploadForm
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: auto;
+	width: 60%;
+	border: 1px solid red;
+	border-radius: 10px;
+	background-color: lime;
+}
+
+#publishFormBoxes
+{
+	font-size: 2rem;
+	margin: 2rem;
+}
+
+#publishFormDescBoxes
+{
+	font-size: 2rem;
+	margin: 2rem;
+	width: 40rem;
+	height: 15rem;
+}
+
+.subButton
+{
+	color: white;
+	font-size: 10rem;
+	background-color: red;
+	border-radius: 10px;
+}
